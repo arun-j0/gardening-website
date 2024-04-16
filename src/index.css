@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+@layer base{
+  html{
+    @apply scroll-smooth
+  }
+
+  body{
+    @apply font-[Poppins]
+  }
+
+  li{
+    @apply p-4 text-sm
+  }
+
+  button{
+    @apply  text-white border border-green-300 bg-gradient-to-r from-green-300 via-green-600 to-green-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-800 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm md:text-lg px-4 py-2 text-center me-2 mb-2 my-2
+  }
+
+} 
+

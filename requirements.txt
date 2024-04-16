@@ -1,0 +1,7 @@
+node
+react-icons
+react-slick
+react-tilt
+eamiljs-com
+tailwindcss
+
